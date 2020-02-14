@@ -6,9 +6,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import static android.graphics.Color.BLUE;
-import static android.graphics.Color.RED;
-import static android.graphics.Color.red;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,9 +15,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         TextView textView = new TextView(this);
-        textView.setText("Wow!");
-        textView.setTextColor(RED);
-        textView.setTextSize(55);
+        textView.setText("lalalalalalalalalalalalalalalalalala");
+        textView.setTextColor(Color.GREEN);
+        textView.setTextSize(56);
+        textView.setMaxLines(1);
 
 
         setContentView(textView);
